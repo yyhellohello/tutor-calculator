@@ -1,0 +1,13 @@
+{
+    "crons": [
+      {
+        "path": "/api",
+        "schedule": "30 16 1 * *"
+      }
+    ],
+    "functions": {
+      "api/index.ts": {
+        "runtime": "edge"
+      }
+    }
+  }

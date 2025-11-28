@@ -1,0 +1,14 @@
+{
+  "name": "tutoring-line-bot",
+  "version": "1.0.0",
+  "description": "Automatic tutoring class hours calculator LINE BOT.",
+  "main": "api/index.ts",
+  "scripts": {
+    "start": "vercel dev"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.39.2",
+    "ical.js": "^2.1.0",
+    "linebot": "^1.6.1"
+  }
+}
